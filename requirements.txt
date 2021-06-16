@@ -1,0 +1,7 @@
+tensorflow==1.15.0
+gpt-2-simple
+tweepy
+click
+numpy
+jupyter
+selenium
