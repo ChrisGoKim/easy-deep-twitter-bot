@@ -52,10 +52,10 @@ def tweet(
         twitter_creds = json.load(json_file)
 
     # Set the credentials based on the credentials file
-    CONSUMER_KEY = twitter_creds["api_key"]
-    CONSUMER_SECRET = twitter_creds["api_secret"]
-    ACCESS_KEY = twitter_creds["access_key"]
-    ACCESS_SECRET = twitter_creds["access_secret"]
+    CONSUMER_KEY = twitter_creds["consumer_key"]
+    CONSUMER_SECRET = twitter_creds["consumer_secret"]
+    ACCESS_KEY = twitter_creds["access_token"]
+    ACCESS_SECRET = twitter_creds["access_token_secret"]
 
     # Authenticate with the Twitter API
     auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)

@@ -12,7 +12,7 @@ start = datetime.datetime(2018, 12, 2)  # year, month, day
 end = datetime.datetime(2021, 6, 12)  # year, month, day
 
 # only edit these if you're having problems
-delay = 3  # time to wait on each page load before reading the page
+delay = 6  # time to wait on each page load before reading the page
 driver = webdriver.Chrome()  # options are Chrome() Firefox() Safari()
 
 

@@ -15,7 +15,7 @@ sess = gpt2.start_tf_sess()
 
 # Define the number of steps we want our model to take we want this to be such that
 # we only pass over the data set 1-2 times to avoid overfitting.
-num_steps = 15
+num_steps = 20
 
 # This is the path to the text file we want to use for training.
 text_path = "frogdetective_formatted.txt"
